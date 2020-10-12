@@ -25,6 +25,11 @@ function search(){
         produksi.innerHTML = titleFilm.Production;
         plot.innerHTML = titleFilm.Plot
 
+        // let showContent = document.createElement('div');
+        // document.body.appendChild(showContent);
+        // console.dir(showContent)
+
+        document.getElementById('content').style.display = "block";
 
 
     })
@@ -46,6 +51,9 @@ function getFilm(title){
 
     })
 }
+
+
+
 
 
 main();

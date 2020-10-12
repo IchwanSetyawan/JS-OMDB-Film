@@ -1,3 +1,17 @@
+body{
+    background-image: url("/image/tree_bark.png");
+}
 .core {
     margin-top: 20px;
+}
+
+#content{
+    display: none;
+    background-color: rgb(190, 149, 95, .9);
+    margin-bottom: 20px;
+    padding: 50px 0px;
+}
+
+#searchButton{
+    background-color: rgba(139, 87, 18);
 }

@@ -18,21 +18,21 @@
         <div class="row justify-content-md-center">                
             <form class="col col-lg-6" >
                 <div class="form-group">
-                    <label>Movie Title</label>
+                    <h2><label>Movie Title</label></h2>
                     <input type="text" class="form-control" id="searchInput">
                 </div>
-                <button type="button" class="btn btn-primary col-12 " id="searchButton">search</button>
+                <button type="button" class="btn btn-primary col-12 " id="searchButton" onclick="search()">search</button>
             </form>            
         </div>
         <br><br>
         
 
-        <div class="container">
+        <div class="container shadow p-3 mb-5 rounded" id="content">
             <div class="row justify-content-md-center">
-                <div class="col-md-auto ">
+                <div class="col-md-auto " id="imageShow">
                     <img src="" alt="" id="image">
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <p>
                         Title: <b><span id="title"></span></b>
                     </p>
